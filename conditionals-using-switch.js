@@ -5,23 +5,30 @@ function Knight (name,regiment){
   switch (regiment) {
     case 1:
       this.weapon = "Broadsword";
+      console.log("Hi I am case 1")
+      console.log(this.weapon);console.log(regiment);break
   case 2:
+      console.log("Hi I am Case 2");
       this.weapon = "Claymore";
+      console.log(this.weapon);
+      console.log("correct regiment ",regiment);
+      console.log("Leaving case 2");
+      break;
   case 3:
-      this.weapon = "Longsword";
+      this.weapon = "Longsword";console.log(this.weapon);console.log(regiment);break
   case 4:
-      this.weapon = "Mace";
+      this.weapon = "Mace";console.log(this.weapon);console.log(regiment);break
   case 5:
-      this.weapon = "War Hammer";
+      this.weapon = "War Hammer";console.log(this.weapon);console.log(regiment);break
   case 6:
-      this.weapon = "Battle Axe";
+      this.weapon = "Battle Axe";console.log(this.weapon);console.log(regiment);break
   case 7:
-      this.weapon = "Halberd";
+      this.weapon = "Halberd";console.log(this.weapon);console.log(regiment);break
   case 8:
-      this.weapon = "Morning Star";
+      this.weapon = "Morning Star";console.log(this.weapon);console.log(regiment);break
   }
 }
 
 
 var soldier = new Knight("Timothy", 2);
-console.log(soldier.weapon)
+console.log("Weapon ",soldier.weapon);// getting morning Star...
