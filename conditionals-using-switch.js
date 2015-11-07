@@ -15,20 +15,38 @@ function Knight (name,regiment){
       console.log("Leaving case 2");
       break;
   case 3:
-      this.weapon = "Longsword";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "Longsword";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 3");
+break;
   case 4:
-      this.weapon = "Mace";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "Mace";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 4");
+break;
   case 5:
-      this.weapon = "War Hammer";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "War Hammer";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 5");
+break;
   case 6:
-      this.weapon = "Battle Axe";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "Battle Axe";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 6");
+break;
   case 7:
-      this.weapon = "Halberd";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "Halberd";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 7");
+break;
   case 8:
-      this.weapon = "Morning Star";console.log(this.weapon);console.log(regiment);break
+      this.weapon = "Morning Star";console.log(this.weapon);
+console.log("correct regiment ",regiment);
+console.log("Leaving case 8");
+break;
   }
 }
 
 
 var soldier = new Knight("Timothy", 2);
-console.log("Weapon ",soldier.weapon);// getting morning Star...
+console.log(soldier);// getting morning Star...
