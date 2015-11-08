@@ -21,7 +21,7 @@ function CaretakerMedallion(caretaker){
           this.innerRing = 'Ars autem est in aeternum';
             break;
         case 'FontFriar':
-            this.bronzeBanner = 'Venit Comic Sans';
+            this.bronzeBanner = 'Venit Comic Sans'
             this.innerRing = 'Ars autem est in aeternum';
             break;
         case 'StyleSensei':
