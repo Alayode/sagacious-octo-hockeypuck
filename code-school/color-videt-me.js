@@ -14,11 +14,27 @@
 
 
 function CaretakerMedallion(caretaker){
-  this.age = 27;
-  this.isMedallion = true;
-  console.log("Hi I am taking the " + caretaker);
-}
+    switch(caretaker){
+        case 'PixelPriest':
+          this.bronzeBanner = 'Omne initium est a pixel';
+          this.circumscribedSquare = 'Venit Comic Sans';
+          this.innerRing = 'Ars autem est in aeternum';
+            break;
+        case 'FontFriar':
+            this.bronzeBanner = 'Venit Comic Sans';
+            this.innerRing = 'Ars autem est in aeternum';
+            break;
+        case 'StyleSensei':
+            this.innerRing = 'Ars autem est in aeternum';
+            break;
+        default:
+            this.message  =  'I aint got shit for you';
+        }
+};
 
 
-var medallion1 = new CaretakerMedallion("Paul");
-console.log(test)
+
+var medallion1 = new CaretakerMedallion("PixelPriest");
+var medallion2 = new CaretakerMedallion("Greagory");
+console.log(medallion1);
+console.log(medallion2);
