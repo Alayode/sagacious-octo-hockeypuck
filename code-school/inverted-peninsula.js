@@ -3,7 +3,7 @@
 //Filename : Inverted Peninsula
 
 
-(function(){
+var InvertedPeninsula = function(){
   inhabitants = [
     {
       name: "Choshizen",
@@ -14,6 +14,7 @@
       race:  "Hume"
     }
   ];
+  console.log(inhabitants)
 //   // Add an extra humans method property to the inhabitants array to return all Humans
 // //  this.inhabitants.humans = function(){
 //     /* returns all Human inhabitatans*/
@@ -25,8 +26,10 @@
 //         for(var i = 0, o = invertedPeninsula.inhabitants; i < o.length; i++){
 //     console.log(invertedPeninsula.inhabitants[i].name);
   // }
-})();
+};
 
-var ppl = inhabitants;
-console.log(ppl);
+InvertedPeninsula();
+
+// var ppl = inhabitants;
+// console.log(ppl);
 // var g = new InvertedPeninsula();
