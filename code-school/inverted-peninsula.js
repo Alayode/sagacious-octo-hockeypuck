@@ -4,7 +4,7 @@
 
 
 var InvertedPeninsula = function(){
-  inhabitants = [
+  this.inhabitants = [
     {
       name: "Choshizen",
       race:  "Elvaan"
@@ -14,7 +14,7 @@ var InvertedPeninsula = function(){
       race:  "Hume"
     }
   ];
-  console.log(inhabitants)
+  console.log("My People ",inhabitants)
 //   // Add an extra humans method property to the inhabitants array to return all Humans
 // //  this.inhabitants.humans = function(){
 //     /* returns all Human inhabitatans*/
