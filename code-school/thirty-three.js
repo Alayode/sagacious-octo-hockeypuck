@@ -21,3 +21,11 @@ function multiplier(y){
 
 
 console.log(multiplier);//[Function:multiplier]
+
+function ender(z){
+  var x,y;
+  x = 5;
+  y = multiplier(z+x);
+  return y;
+}
+console.log(ender);//[Function:ender]
