@@ -28,4 +28,19 @@ function SpeedTest(testImplement,testParams, repetitions){
   This will be specific code we want to test for performance
   speed. We'll encapsulate it all within its own function later.
   */
+
+  //testImplement
+  // This will be the specific code we want to test for performance speed.
+
+  // testParams
+  // This represents whatever parameters our test code needs in order to work
+  // correctly. Might be an array of values or just a single value.
+
+  // repetitions
+  // The higher the repetions ,m the more reliable our average speed is.
+    this.testImplement = testImplement;
+    this.testParams = testParams;
+    //We are making repetitions parameters optional
+    this.repetitions = repetitions || 10000;
+    this.average = 0;
 }
