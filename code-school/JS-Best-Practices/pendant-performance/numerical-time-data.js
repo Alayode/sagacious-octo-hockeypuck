@@ -20,3 +20,12 @@ console.log(elapsedTime)
 
 console.log(now);
 // 1447795812900
+
+console.log("We will use our Date object");
+
+function SpeedTest(testImplement,testParams, repetitions){
+  /*
+  This will be specific code we want to test for performance
+  speed. We'll encapsulate it all within its own function later.
+  */
+}
