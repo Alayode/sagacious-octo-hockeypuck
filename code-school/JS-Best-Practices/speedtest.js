@@ -45,7 +45,10 @@ SpeedTest.prototype = {
       //Hypothetically we would have tons of Knight objects in our firstRegimenKnights array
   var firstRegimenKnights = [];
 
-for(var i = 0; i < firstRegimenNewbs.length; i++)}{
+  for(var i = 0; i < firstRegimenNewbs.length; i++)}{
     var newGuy = new Knight(firstRegimenNewbs[i],1);
     firstRegimentKnights.push(newGuy);
     }
+
+
+    var noBPtest = new SpeedTest

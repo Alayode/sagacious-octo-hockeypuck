@@ -40,7 +40,9 @@ function SpeedTest(testImplement,testParams, repetitions){
   // The higher the repetions ,m the more reliable our average speed is.
     this.testImplement = testImplement;
     this.testParams = testParams;
+
     //We are making repetitions parameters optional
     this.repetitions = repetitions || 10000;
+
     this.average = 0;
 }

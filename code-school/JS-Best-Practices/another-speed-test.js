@@ -28,3 +28,15 @@ var concatTest = new SpeedTest(populationGetterConcat, inhabitants, 100000);
 concatTest.startTest();
 var populationGetterJoin = new SpeedTest(populationsGetterJoin);
 concatTest.joinTest();
+
+
+/*
+2.27 Another SpeedTest
+
+Now that you know how to implement one SpeedTest, we have added a new
+populationsGetterJoin function to test. When building a new instance
+of this test, allow the constructor to assign the default number of
+repetitions to use and the name the test joinTest
+
+
+*/
