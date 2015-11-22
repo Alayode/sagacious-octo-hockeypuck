@@ -8,3 +8,6 @@ function Bird() {
 function DataTypeBird(){
    DataTypeBird.prototype = console.log("Im the DataTypeBird")
 };
+
+// callback the DataTypeBird function
+DataTypeBird();
