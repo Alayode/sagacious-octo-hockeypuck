@@ -1,3 +1,5 @@
 
 //declare of function and name is bird
-function Bird() {};
+function Bird() {
+  Bird.prototype = console.log("Im the bird");
+};
