@@ -28,3 +28,19 @@ var TryCatchTaster = function() {},
     TernaryTracker = function() {};
 
 var NumberNommer = function() {};
+    NumberNommer.prototype = Object.create(DatatypeBird.prototype);
+
+var aTryCatchTaster = new TryCatchTaster();
+var aSwitchSnagger  = new SwitchSnagger();
+var aTernaryTracker = new TernaryTracker();
+var aNumberNommer   = new NumberNommer();
+
+var duneInhabitants = [aNumberNommer, aTryCatchTaster, 
+                       aSwitchSnagger, aTernaryTracker];
+
+var count = 0;
+for(var i = 0; i < duneInhabitants.length; i++) {
+  if () {
+    count++;
+  }
+}
