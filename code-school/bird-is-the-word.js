@@ -11,3 +11,7 @@ function DataTypeBird(){
 
 // callback the DataTypeBird function
 DataTypeBird();
+
+// on the DataTypeBird prototype create a new object and assign it
+// to DataTypeBird.prototype.
+DataTypeBird.prototype = Object.create(Bird.prototype);
