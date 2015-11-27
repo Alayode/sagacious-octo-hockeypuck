@@ -35,12 +35,13 @@ var aSwitchSnagger  = new SwitchSnagger();
 var aTernaryTracker = new TernaryTracker();
 var aNumberNommer   = new NumberNommer();
 
-var duneInhabitants = [aNumberNommer, aTryCatchTaster, 
+var duneInhabitants = [aNumberNommer, aTryCatchTaster,
                        aSwitchSnagger, aTernaryTracker];
 
 var count = 0;
 for(var i = 0; i < duneInhabitants.length; i++) {
-  if () {
+  if (duneInhabitants[i] instanceof SyntaxBird) {
     count++;
   }
 }
+console.log(count)
