@@ -12,6 +12,11 @@ var birdFeeder = {
     //check to make sure our totalFeed we have is not less then the amount requested.
     if(returnedFeed >= feedRequested){
       //do this
+      returnedFeed = feedRequested;
+      this.totalFeed -= feedRequested;
+    } else {
+      returnedFeed = this.totalFeed;
+      this.totalFeed = 0;
     }
 
 
