@@ -5,7 +5,7 @@
 
 
 var birdFeeder = {
-  totalFeed: 4,
+  totalFeed: 4.000,
   getFeed: function(feedRequested) {
     //set a variable to 0 to represent the feed that needs to be returned.
     var returnedFeed = 0;
@@ -19,9 +19,10 @@ var birdFeeder = {
       returnedFeed = this.totalFeed; //return the amount of feed that is left
       this.totalFeed = 0; //set the feed to zero
     }
-
-    return returnedFeed
-
+    //toFixed() method on returnedFeed so the value is rounded to 1 decimal place.
+    // ensure that our return value is a number and not a string.
+    return parseFloat(returnedFeed.toFixed(1))  ;
+    var parsed = parseFloat(returnedFeed.toFixed(1));
     // var feedRequested = 0;
     // console.log(feedRequested ,'inside ');
   },
@@ -30,15 +31,10 @@ var birdFeeder = {
     var additionalFeed = 4;
     this.totalFeed += additionalFeed;
   }
-
-
 }
 
-
-//
-// console.log(birdFeeder.totalFeed);
+console.log(birdFeeder.getFeed());
 
 //lets add food the feeder
-birdFeeder.fillFeed(); // plus 4  (4+4) = 8
-
-console.log('feeder has: ',birdFeeder.totalFeed);// should be 8
+// birdFeeder.fillFeed(); // plus 4  (4+4) = 8
+// console.log('feeder has: ',birdFeeder.totalFeed);// should be 8
