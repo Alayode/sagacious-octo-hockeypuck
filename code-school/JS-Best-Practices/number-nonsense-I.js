@@ -7,10 +7,20 @@
 var birdFeeder = {
   totalFeed: 4,
   getFeed: function(feedRequested) {
-    var feedRequested = 0;
-    console.log(feedRequested ,'inside ');
+    //set a variable to 0 to represent the feed that needs to be returned.
+    var returnedFeed = 0;
+    //check to make sure our totalFeed we have is not less then the amount requested.
+    if(returnedFeed >= feedRequested){
+      //do this
+    }
+
+
+    // var feedRequested = 0;
+    // console.log(feedRequested ,'inside ');
   }
 }
 
-birdFeeder.getFeed();
-console.log(birdFeeder.totalFeed);
+
+//
+// birdFeeder.getFeed();
+// console.log(birdFeeder.totalFeed);
