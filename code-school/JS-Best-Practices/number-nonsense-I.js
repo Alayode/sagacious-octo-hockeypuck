@@ -15,8 +15,9 @@ var birdFeeder = {
       returnedFeed = feedRequested;
       this.totalFeed -= feedRequested;
     } else {
-      returnedFeed = this.totalFeed;
-      this.totalFeed = 0;
+      //do this when there is not enough food.
+      returnedFeed = this.totalFeed; //return the amount of feed that is left
+      this.totalFeed = 0; //set the feed to zero
     }
 
 
