@@ -20,13 +20,25 @@ var birdFeeder = {
       this.totalFeed = 0; //set the feed to zero
     }
 
+    return returnedFeed
 
     // var feedRequested = 0;
     // console.log(feedRequested ,'inside ');
+  },
+  // we need a fill feeder function to handle the
+  fillFeed: function(additionalFeed){
+    var additionalFeed = 4;
+    this.totalFeed += additionalFeed;
   }
+
+
 }
 
 
 //
-// birdFeeder.getFeed();
 // console.log(birdFeeder.totalFeed);
+
+//lets add food the feeder
+birdFeeder.fillFeed(); // plus 4  (4+4) = 8
+
+console.log('feeder has: ',birdFeeder.totalFeed);// should be 8
