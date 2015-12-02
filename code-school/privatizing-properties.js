@@ -16,9 +16,16 @@ var ARMORY = (function(){
   var armorList  =  [ 'Rainbow Cloak','Doublet','Lizard Jerkin','Chain Mail' ];
 
   var removeWeapon = function(weapon){
-    //revmove weapon from the armory
-    // weaponList.slice()
-    // console.log(weapon);
+    //remove weapon from the armory
+    console.log(weaponList);
+    var verify = weaponList.indexOf(weapon)//returns 0
+    console.log('@ position: ',verify); //0
+    var  splicedItem = weaponList.splice(verify,1);
+
+    console.log(splicedItem + ' Was Removed from the armory ');
+    console.log(weaponList.length)
+
+    console.log(weaponList);
   };
   var replaceWeapon = function(){
     //add a weapon to the weaponList
