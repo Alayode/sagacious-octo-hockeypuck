@@ -18,7 +18,7 @@ var ARMORY = (function(){
   var removeWeapon = function(weapon){
     //revmove weapon from the armory
     // weaponList.slice()
-    console.log(weapon);
+    // console.log(weapon);
   };
   var replaceWeapon = function(){
     //add a weapon to the weaponList
@@ -33,7 +33,7 @@ var ARMORY = (function(){
   return{
     makeWeaponRequest: function(weapon){
     //create a object that would be accessible to the global scope.
-    console.log('Weapon Request Acknowledge!');
+    console.log('Weapon Requested: ' + weapon);
     removeWeapon(weapon)
 
   },
