@@ -15,8 +15,10 @@ var ARMORY = (function(){
   var weaponList =  [ 'Excalibur','Ice Brand','Ragnarok','Save the Queen' ];
   var armorList  =  [ 'Rainbow Cloak','Doublet','Lizard Jerkin','Chain Mail' ];
 
-  var removeWeapon = function(){
+  var removeWeapon = function(weapon){
     //revmove weapon from the armory
+    // weaponList.slice()
+    console.log(weapon);
   };
   var replaceWeapon = function(){
     //add a weapon to the weaponList
@@ -29,12 +31,21 @@ var ARMORY = (function(){
   };
 
   return{
-    makeWeaponRequest: function(){
+    makeWeaponRequest: function(weapon){
     //create a object that would be accessible to the global scope.
     console.log('Weapon Request Acknowledge!');
+    removeWeapon(weapon)
+
   },
     makeArmorRequest: function(){
       // create a object that also be available to the global scope once the function is called.
+      console.log('Armor Request Acknowledge!')
     }
   };
 })();
+
+
+
+
+ARMORY.makeWeaponRequest('Excalibur');
+// ARMORY.makeArmorRequest();
