@@ -31,9 +31,10 @@ var ARMORY = (function(){
   return{
     makeWeaponRequest: function(){
     //create a object that would be accessible to the global scope.
-    };
+    console.log('Weapon Request Acknowledge!');
+  },
     makeArmorRequest: function(){
       // create a object that also be available to the global scope once the function is called.
-    };
+    }
   };
 })();
