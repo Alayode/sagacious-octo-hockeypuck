@@ -4,4 +4,6 @@
 
 //Next pass the caves variable as a parameter and then
 //apply the CAVEOSCLARITY to the bottom of the closure.
-CAVESOFCLARITY = function(){}; 
+CAVESOFCLARITY = (function(){
+
+})(CAVEOSCLARITY);
