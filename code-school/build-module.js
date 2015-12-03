@@ -8,6 +8,13 @@ CAVESOFCLARITY = (function(){
 
   // inside our module create a local variable and assign it an empty string
     var sandScript = '';
-    
+
+    //create a new public method in the module,
+  caves.setSandScript = function(message){
+    sandScript = message;
+  };
+
+  //return your newly augmented caves module
+  return caves;
 
 })(CAVEOSCLARITY);
