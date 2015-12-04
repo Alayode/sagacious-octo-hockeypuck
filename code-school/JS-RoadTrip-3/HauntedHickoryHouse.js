@@ -35,3 +35,19 @@ function() {
   }
   alert(toAlert);
 }
+
+
+// now that it has no name it can called by assiging it to a
+// variable. lets use the variable runAway
+
+//this is another to use this function.
+var runAway = function() {
+  var toAlert = "";
+  for (var i = 0; i < 5; i++) {
+    toAlert = toAlert + "Lions, Tigers, and Bears, Oh My!!\n";
+  }
+  alert(toAlert);
+};
+
+
+runAway();
