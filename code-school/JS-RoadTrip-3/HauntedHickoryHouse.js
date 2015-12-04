@@ -64,10 +64,13 @@
 // on the amount of people, the amount of rain, and
 // the amount of sharks. Yes. Sharks.
 
+// If the math is troubling, try to work backwards
+// from an ideal number in the accepted range of 100 to 400.
 
-var people = /*//fill this in//*/;
-var rain = /*//fill this in//*/;
-var sharks = /*//fill this in//*/;
+var people = 5;
+var rain = 6;
+var sharks = 6;
+
 
 var fearGenerated = function(numPeeps, rainInInches, numSharks) {
   var rainFear = numPeeps * rainInInches;
@@ -75,3 +78,7 @@ var fearGenerated = function(numPeeps, rainInInches, numSharks) {
   var totalFear = sharkFear + rainFear;
   return totalFear;
 };
+
+// Test Your Code!!!!
+// Call the function and ensure that your parameters are
+// being passed in the right order, and only by variable name.
