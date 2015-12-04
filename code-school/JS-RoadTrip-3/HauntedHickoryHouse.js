@@ -110,3 +110,42 @@
 // // That method is a apart of the window object in the browser.
 //
 // alert(fearGenerated);
+
+
+
+// Functions as parameters, arguments and Return Values
+
+
+
+// Well, it stands to reason that some people might not want to experience the Haunted Hickory House if the fear is significantly elevated on that day.
+//
+//     Inside the fearMessage function expression, use conditional statements to check the already-generated fear value, and decide whether it is LOW or MEDIUM.
+//     Inside each conditional statement, return a specific confirm message in the following formats:
+//
+// For fear levels less than 200:
+//
+// Fear Level: LOW
+// Still wanna ride?
+//
+// For fear levels 200 through and including 300:
+//
+// Fear Level: MEDIUM
+// Think you'll make it?
+//
+// Lastly, call the confirmRide function and pass in the fearMessage variable. Then assign the results of that function in a new variable called startRide.
+//
+// Note: You do not need to change the existing code that’s provided for you in the challenge editor.
+
+
+var fear = fearGenerated(numPeeps, rainInInches, numSharks);
+
+var fearMessage = function() {
+  // Insert conditional statements here
+
+};
+
+function confirmRide(confirmToGo) {
+  return confirmToGo();
+}
+
+// Call confirmRide here
