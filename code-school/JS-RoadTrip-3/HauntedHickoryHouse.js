@@ -63,3 +63,10 @@
 // generated at the theme park. Their formula is based
 // on the amount of people, the amount of rain, and
 // the amount of sharks. Yes. Sharks.
+
+var fearGenerated = function(numPeeps, rainInInches, numSharks) {
+  var rainFear = numPeeps * rainInInches;
+  var sharkFear = numSharks * numSharks * numSharks;
+  var totalFear = sharkFear + rainFear;
+  return totalFear;
+};
