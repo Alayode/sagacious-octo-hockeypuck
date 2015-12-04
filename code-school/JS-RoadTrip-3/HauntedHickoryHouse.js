@@ -64,6 +64,11 @@
 // on the amount of people, the amount of rain, and
 // the amount of sharks. Yes. Sharks.
 
+
+var people = /*//fill this in//*/;
+var rain = /*//fill this in//*/;
+var sharks = /*//fill this in//*/;
+
 var fearGenerated = function(numPeeps, rainInInches, numSharks) {
   var rainFear = numPeeps * rainInInches;
   var sharkFear = numSharks * numSharks * numSharks;
