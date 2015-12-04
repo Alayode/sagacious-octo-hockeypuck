@@ -108,3 +108,5 @@ var fearGenerated = function(numPeeps, rainInInches, numSharks) {
 
 //Note if you are using NodeJS you will not be able to use alert method.
 // That method is a apart of the window object in the browser.
+
+alert(fearGenerated);
