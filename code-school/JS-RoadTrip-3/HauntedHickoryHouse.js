@@ -97,16 +97,16 @@
 // variable that stores the function to the screen.
 // Here is the fearGenerated function expression assignment for reference:
 
-
-var fearGenerated = function(numPeeps, rainInInches, numSharks) {
-  var rainFear = numPeeps * rainInInches;
-  var sharkFear = numSharks * numSharks * numSharks;
-  var totalFear = sharkFear + rainFear;
-  return totalFear;
-};
-
-
-//Note if you are using NodeJS you will not be able to use alert method.
-// That method is a apart of the window object in the browser.
-
-alert(fearGenerated);
+//
+// var fearGenerated = function(numPeeps, rainInInches, numSharks) {
+//   var rainFear = numPeeps * rainInInches;
+//   var sharkFear = numSharks * numSharks * numSharks;
+//   var totalFear = sharkFear + rainFear;
+//   return totalFear;
+// };
+//
+//
+// //Note if you are using NodeJS you will not be able to use alert method.
+// // That method is a apart of the window object in the browser.
+//
+// alert(fearGenerated);
