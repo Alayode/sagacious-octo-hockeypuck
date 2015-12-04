@@ -50,4 +50,7 @@ var runAway = function() {
 };
 
 
-runAway();
+//Finally we will callback the function by adding the name of the variable plus the paraentheses
+//to call back the function.
+
+// runAway();
