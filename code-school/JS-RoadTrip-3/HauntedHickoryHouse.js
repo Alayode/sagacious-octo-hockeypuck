@@ -134,9 +134,11 @@
 //
 // Lastly, call the confirmRide function and pass in the fearMessage variable. Then assign the results of that function in a new variable called startRide.
 //
-// Note: You do not need to change the existing code that’s provided for you in the challenge editor.
 
 
+
+
+// Note: You do not need to change the existing code that’s provided for you!!!!
 var fear = fearGenerated(numPeeps, rainInInches, numSharks);
 
 var fearMessage = function() {
