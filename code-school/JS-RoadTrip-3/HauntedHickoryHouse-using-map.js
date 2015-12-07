@@ -60,6 +60,14 @@ console.log(modifiedNames,"Using the map function: ");
 
 // say yo to each person with a for loop
 for(index = 0; index < modifiedNames.length; ++index){
-console.log( "Yo, " + modifiedNames[index] );
+console.log( "Yo, " + modifiedNames[index] , 'forLooped' );
 
 }
+
+var greetings = modifiedNames.map(function(greetCell){
+  return greetCell +  ' : used map';
+  // return console.log(greetCell +  ' : used map + console');
+  // alert(greetCell +  ' : used map')
+
+
+});
