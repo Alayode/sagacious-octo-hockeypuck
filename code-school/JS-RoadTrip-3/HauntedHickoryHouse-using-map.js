@@ -24,3 +24,42 @@ var modifiedNames = passengers.map(function(arrayCell){
 
 console.log(passengers,"normal array");
 console.log(modifiedNames,"Using the map function: ");
+
+/*
+So with arrayCell being passed into the passengers object map function we
+should be able to create a new array of object merging the objects into a single object.
+
+
+*/
+
+
+
+//Using Map with arrays II
+
+
+/*
+The passengers have arrived at Maple Mountain! Take the modifiedNames array that
+you produced in the last challenge, and map a new anonymous function on it
+
+*/
+
+
+
+var passengers = [ ["Thomas", "Meeks"], ["Gregg", "Pollack"], ["Christine", "Wong"], ["Dan","McGraw"]  ];
+
+// Assign passenger.map() to the modifiedNames Variable, This will allow us to pass in a function to be userId
+// on every eleement in the array.
+
+var modifiedNames = passengers.map(function(arrayCell){
+  return arrayCell[0] + " " + arrayCell[1];
+});
+
+console.log(passengers,"normal array");
+console.log(modifiedNames,"Using the map function: ");
+
+
+// say yo to each person with a for loop
+for(index = 0; index < modifiedNames.length; ++index){
+console.log( "Yo, " + modifiedNames[index] );
+
+}
