@@ -92,3 +92,13 @@ var greetings = modifiedNames.map(function(greetCell){
 
 // create an empty array and assign it to a variable called puzzlers
 var puzzlers = [];
+
+//create a function that will take a variable named input
+// function(input){};
+
+//Next move the function into the array
+var puzzlers = [
+  function(input){return input}
+
+
+];
