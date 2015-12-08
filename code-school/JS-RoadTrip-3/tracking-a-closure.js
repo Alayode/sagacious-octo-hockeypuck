@@ -22,6 +22,12 @@
         return secret  * multiplier; // return the product of secret and multplier
       }// create a new function in the mystery function named mystery2 pass it a variable named multplier
 
-      return mystery2; //outside the mystery2 function return the value of the function in mystery();
+      return mystery2; // outside the mystery2 function return the value of the function in mystery();
 
     } // create a function with the name mystery
+
+         mystery();//callback the function.
+
+    console.log(mystery); // returns the entire function
+    var hidden = mystery(); // calling back hidden will return the value of mystery
+    var result = hidden(3)  // ???
