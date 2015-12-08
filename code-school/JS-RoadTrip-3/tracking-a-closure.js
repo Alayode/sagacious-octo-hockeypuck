@@ -17,6 +17,6 @@
     function mystery(){
       var secret = 6; // assign it a value of 6
       function mystery2(multiplier){
-        return secret  * multiplier;
-      }
+        return secret  * multiplier; // return the product of secret and multplier
+      }// create a new function in the mystery function named mystery2 pass it a variable named multplier
     } // create a function with the name mystery
