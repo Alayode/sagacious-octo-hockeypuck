@@ -15,5 +15,8 @@
     // The number must be a whole number. No Decimal points.
 
     function mystery(){
-      var secret = 6;
+      var secret = 6; // assign it a value of 6
+      function mystery2(multiplier){
+        return secret  * multiplier;
+      }
     } // create a function with the name mystery
