@@ -14,4 +14,6 @@
     // Don't pass in a string.
     // The number must be a whole number. No Decimal points.
 
-    function mystery(){} // create a function with the name mystery
+    function mystery(){
+      var secret = 6;
+    } // create a function with the name mystery
