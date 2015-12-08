@@ -26,8 +26,6 @@ var puzzlers = [];
 //Next move the function into the array
 var puzzlers = [
   function(input){return input}
-
-
 ];
 
 console.log(puzzlers); //returns the function
